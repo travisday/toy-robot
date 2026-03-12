@@ -9,7 +9,7 @@ Frontend - React Rotuer v7
 
 ## Project structure
 
-# Frontend
+### Frontend
 ```text
 app/
     components/
@@ -27,7 +27,7 @@ app/
         simulator.tsx       # main component for robot state and functions
     routes.ts               # entry point
 ```
-# Backend
+### Backend
 ```text
 src/
     positions/
