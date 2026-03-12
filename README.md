@@ -1,10 +1,11 @@
 # Toy Robot Simulator
 
 ## Tech Stack
-
+```text
 Backend - NestJS
 Database - SQLite
 Frontend - React Rotuer v7
+```
 
 ## Project structure
 
