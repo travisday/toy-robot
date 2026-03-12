@@ -9,6 +9,7 @@ Frontend - React Rotuer v7
 ## Project structure
 
 # Frontend
+```text
 app/
     components/
         ui/                 # ShadCn auto generated components
@@ -24,8 +25,9 @@ app/
         simulator.test.tsx  # test script for simulator
         simulator.tsx       # main component for robot state and functions
     routes.ts               # entry point
-    
+```
 # Backend
+```text
 src/
     positions/
         dto/
@@ -40,7 +42,7 @@ src/
     app.service.ts                      # Nest boilerplate
     app.module.ts                       # Nest boilerplate
     app.contoller.ts                    # Nest boilerplate
-
+```
 
 ## How to run
 
@@ -67,7 +69,7 @@ src/
 5. refresh the page and notice the robots position is persisted
 6. in a separate browser window navigate to `localhost:3000/positions` and you can see all the saved positions of the robot in the db
 
-### Unit tests
+## Unit tests
 I did not have time to write full unit test coverage, I was able to add some basic tests on the robot logic.
 
 run `npm run test` in the frontend to run these tests.
@@ -80,7 +82,7 @@ What unit tests I would add:
 - tests for position controller to ensure the route calls the correct service method.
 
 
-### Assumptions
+## Assumptions
 1. Since the project doc mentioned not being pixel perfect I made the assumption to design the frontend how I saw fit. I used readily availbale ShadCN components to be mindful of my time spent.
 
 2. Assumed since this is just a 4 hour assesment I did not need to add any api or database security
